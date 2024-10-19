@@ -1,0 +1,24 @@
+<section class="countdown">
+    <div class="countdown-content">
+        <h2>Contagem Regressiva para a Festa!</h2>
+        <div class="countdown-timer">
+            <div class="countdown-item">
+                <span class="countdown-number">{{ days }}</span>
+                <span class="countdown-label">Dias</span>
+            </div>
+            <div class="countdown-item">
+                <span class="countdown-number">{{ hours }}</span>
+                <span class="countdown-label">Horas</span>
+            </div>
+            <div class="countdown-item">
+                <span class="countdown-number">{{ minutes }}</span>
+                <span class="countdown-label">Minutos</span>
+            </div>
+            <div class="countdown-item">
+                <span class="countdown-number">{{ seconds }}</span>
+                <span class="countdown-label">Segundos</span>
+            </div>
+        </div>
+        <p class="message">Faltam apenas <strong>{{ totalTime }}</strong> para uma noite mágica!</p>
+    </div>
+</section>

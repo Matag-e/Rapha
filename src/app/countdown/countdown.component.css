@@ -1,0 +1,59 @@
+.countdown {
+    background: #ffedeb; /* Cor de fundo suave - rosa claro */
+    border-radius: 15px;
+    padding: 40px;
+    margin: 20px 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-family: 'Roboto', sans-serif; /* Fonte Roboto */
+}
+
+.countdown-content {
+    max-width: 900px;
+    margin: 0 auto;
+    color: #c2185b; /* Texto em um tom mais escuro da paleta */
+}
+
+.countdown h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.countdown-timer {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Espaço maior entre os itens */
+    font-size: 3rem;
+}
+
+.countdown-item {
+    background: #c2185b; /* Cor vibrante para os itens */
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    position: relative; /* Para adicionar efeito visual */
+    transition: transform 0.3s;
+}
+
+.countdown-item:hover {
+    transform: scale(1.1); /* Efeito de hover */
+}
+
+.countdown-number {
+    display: block;
+    font-weight: bold;
+    color: #fff; /* Números em branco para contraste */
+}
+
+.countdown-label {
+    font-size: 1.2rem;
+    color: #fff; /* Texto branco para as labels */
+}
+
+.message {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+}

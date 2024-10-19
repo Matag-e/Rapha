@@ -1,0 +1,92 @@
+/* Estilização da Seção Home */
+.home {
+    background: linear-gradient(to right, #ffedeb, #ff6f61); /* Gradiente de rosa claro para coral */
+    height: 90vh; /* Altura total da tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden; /* Esconder elementos que saem do limite */
+  }
+  
+  /* Conteúdo centralizado */
+  .home-content {
+    z-index: 1; /* Acima de outros elementos */
+    position: relative; /* Para permitir o posicionamento absoluto dos elementos decorativos */
+  }
+  
+  /* Título e descrição */
+  .home-content h2 {
+    font-size: 60px; /* Título maior */
+    font-family: 'Dancing Script', cursive; /* Fonte festiva */
+    color: #c2185b; /* Rosa escuro */
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 6px rgba(255, 255, 255, 0.8); /* Sombra clara para destaque */
+  }
+  
+  .home-content p {
+    font-size: 24px; /* Texto um pouco maior */
+    color: #333; /* Cor do texto */
+    margin-bottom: 20px;
+    max-width: 600px; /* Largura máxima do texto */
+    margin-left: auto;
+    margin-right: auto; /* Centralizando o parágrafo */
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .btn-rsvp {
+    background-color: #c2185b; /* Rosa escuro */
+    color: #ffffff;
+    border: none;
+    border-radius: 25px; /* Bordas arredondadas */
+    padding: 12px 24px; /* Aumentando o padding */
+    font-size: 18px; /* Fonte do botão um pouco menor */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Adicionando uma transição */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra no botão */
+  }
+  
+  .btn-rsvp:hover {
+    background-color: #ff6f61; /* Coral ao passar o mouse */
+    transform: scale(1.05); /* Efeito de aumento ao passar o mouse */
+  }
+  
+  /* Elementos decorativos */
+  .decorative-elements {
+    position: absolute;
+    top: 10%; /* Posição ajustada para elementos decorativos */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    pointer-events: none; /* Não interagir com os elementos decorativos */
+  }
+  
+  /* Efeitos de brilho (sparkles) */
+  .sparkle {
+    width: 15px; /* Tamanho dos brilhos */
+    height: 15px;
+    border-radius: 50%; /* Formato circular */
+    background: rgba(255, 255, 255, 0.8); /* Branco com transparência */
+    position: relative;
+    margin: 0 5px; /* Espaçamento dos brilhos */
+    animation: sparkle 1.5s infinite ease-in-out; /* Animação de brilho */
+  }
+  
+  .sparkle-1 { animation-delay: 0s; }
+  .sparkle-2 { animation-delay: 0.2s; }
+  .sparkle-3 { animation-delay: 0.4s; }
+  .sparkle-4 { animation-delay: 0.6s; }
+  
+  @keyframes sparkle {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 0.8;
+    }
+    50% {
+      transform: scale(1.5); /* Aumento do brilho */
+      opacity: 1; /* Totalmente visível */
+    }
+  }
+  

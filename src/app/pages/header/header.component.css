@@ -1,0 +1,52 @@
+/* Importando as fontes */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@400;700&display=swap');
+
+/* Estilização do Header */
+header {
+  background-color: #ffedeb; /* Rosa claro */
+  padding: 30px 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Conteúdo do header */
+.header-content {
+  position: relative;
+}
+
+.header-content h1 {
+  font-family: 'Dancing Script', cursive; /* Nova fonte criativa */
+  font-size: 56px; /* Tamanho maior para destaque */
+  color: #c2185b; /* Rosa escuro */
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #c2185b; /* Rosa escuro */
+  padding: 10px 15px;
+  border-radius: 5px; /* Bordas arredondadas */
+  transition: background-color 0.3s, color 0.3s; /* Transição suave */
+}
+
+nav ul li a:hover {
+  background-color: #ffd700; /* Dourado ao passar o mouse */
+  color: #ffffff; /* Texto branco ao passar o mouse */
+}

@@ -1,0 +1,61 @@
+/* Estilização da Seção Sobre */
+.about {
+    background-color: #fff; /* Fundo claro para contraste */
+    padding: 60px 20px; /* Padding para espaçamento */
+    text-align: center; /* Centralizando texto */
+  }
+  
+  /* Conteúdo da seção */
+  .about-content {
+    max-width: 800px; /* Largura máxima do conteúdo */
+    margin: auto; /* Centralizando o conteúdo */
+    padding: 20px; /* Espaço interno */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para destaque */
+    background-color: #ffebee; /* Fundo suave da seção */
+  }
+  
+  /* Título */
+  .about-content h2 {
+    font-size: 40px; /* Tamanho do título */
+    color: #d5006d; /* Cor do título da paleta */
+    margin-bottom: 10px; /* Espaço abaixo do título */
+    font-family: 'Roboto', sans-serif; /* Usando a fonte Roboto */
+  }
+  
+  /* Descrição breve */
+  .about-content p {
+    font-size: 24px; /* Tamanho do texto */
+    color: #333; /* Cor do texto */
+    margin-bottom: 40px; /* Espaço abaixo do parágrafo */
+    font-family: 'Roboto', sans-serif; /* Usando a fonte Roboto */
+  }
+  
+  /* Detalhes sobre a festa */
+  .about-details {
+    background: transparent; /* Fundo transparente para o card */
+  }
+  
+  /* Títulos dos detalhes */
+  .about-details h3 {
+    font-size: 28px; /* Tamanho das seções */
+    color: #ff6f61; /* Cor das seções */
+    margin: 20px 0; /* Margem entre os títulos */
+    font-family: 'Roboto', sans-serif; /* Usando a fonte Roboto */
+  }
+  
+  /* Texto dos detalhes */
+  .about-details p {
+    font-size: 18px; /* Tamanho do texto dos detalhes */
+    color: #555; /* Cor do texto */
+    line-height: 1.6; /* Espaçamento entre linhas */
+  }
+  
+  /* Estilo do contêiner do mapa */
+  .map-container {
+    margin: 20px 0; /* Margem em cima e embaixo do mapa */
+    border-radius: 15px; /* Bordas arredondadas */
+    overflow: hidden; /* Para contornar o iframe */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra leve para o mapa */
+  }
+  
